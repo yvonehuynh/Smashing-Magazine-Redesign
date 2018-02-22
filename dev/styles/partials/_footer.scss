@@ -1,7 +1,12 @@
 footer {
-    background: linear-gradient(#f25959, #ffb04c);
+    background: $primaryColor;
     padding: 10px;
     margin-top: 20px;
+    a, a:visited, a:active{
+        color: white;
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
 }
 
 .main-footer {
@@ -10,6 +15,7 @@ footer {
 }
 
 .general-links {
+    border-top: 1px solid white;
     ul {
         display: flex;
         justify-content: center;

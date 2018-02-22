@@ -5,6 +5,9 @@
 .main-carousel:first-of-type {
     .carousel-cell {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
+        a {
+            color: white;
+        }
     }
 }

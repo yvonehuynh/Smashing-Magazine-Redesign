@@ -15,22 +15,29 @@
         box-shadow: 5px 5px 5px lightgrey;
         border-left: 1px solid lightgrey;
     .card-title {
-       // background: linear-gradient(#f25959, #ffb04c);
-       background: #f25959;
+       background: $primaryColor;
         padding: 10px;
         min-height: 100px;
         max-height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
+        color: white;
     }
     .article-title {
         overflow-wrap: break-word;
         word-wrap: break-word;
         hyphens: auto;
     }
+    .author {
+        margin: 4px 0;
+    }
     .article-description {
         padding: 10px;
         min-height: 100px;
+        line-height: 1.6;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
     }
 }
