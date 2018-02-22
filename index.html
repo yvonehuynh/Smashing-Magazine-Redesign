@@ -2,13 +2,73 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>React Boilerplate</title>
+	<title>Smashing Magazine</title>
 	<link rel="stylesheet" type="text/css" href="./public/styles/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div id="app">
+	<div id="wrapper">
+		<!-- Navigation -->
+		<nav>
+			<div class="main-logo-container">
+				<img class="logo" src="./public/assets/smashing-magazine.svg" alt="smashing magazine logo">
+			</div>
+			<div class="link-container">
+				<ul>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Books</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Membership</a></li>
+				</ul>
+				<div class="search-area">
+					<input type="text" placeholder="search">
+					<a href="">Member Login</a>
+				</div>
+			</div>
+		</nav>
+
+		<header>
+			<div class="main-carousel">
+				<div class="carousel-cell">
+					<a href="https://www.smashingmagazine.com/2018/02/react-d3-ecosystem/">
+					<h1>Bringing Together React, D3, And Their Ecosystem</h1>
+					<h3 class="author">Marcos Iglesias</h3>
+					<p class="blurb">
+						<span class="date">february 21, 2018</span>
+						React and D3.js are great tools to help us deal with the DOM and its challenges. They can surely work together, and we are
+					empowered to choose where to draw the line between them.</p>
+					</a>
+				</div>
+
+				<div class="carousel-cell">
+					<a href="https://www.smashingmagazine.com/2018/02/comprehensive-guide-ui-design/">
+						<h1>A Comprehensive Guide To UI Design</h1>
+						<h3 class="author">Christopher Murphy</h3>
+						<p class="blurb">
+							<span class="date">february 21, 2018</span>
+							 (This article is kindly sponsored by Adobe.) When designing your user interface, it helps to have a system in place. This
+							guide will help you find a solid UI approach that will stand the test of time..
+						</p>
+					</a>
+				</div>
+
+				<div class="carousel-cell">
+					<a href="https://www.smashingmagazine.com/2018/02/comprehensive-website-planning-guide-part1/">
+						<h1>A Comprehensive Website Planning Guide (Part 1)</h1>
+						<h3 class="author">Ben Seigel</h3>
+						<p class="blurb">
+							<span class="date">february 20, 2018</span>
+							 Planning is essential for most businesses and organizations. Unfortunately, when it comes to websites there is often a failure
+							to plan properly or at all. This guide aims to change that.
+						</p>
+					</a>
+				</div>
+			</div>
+			
+		</header>
 	</div>
-	<script src="./public/scripts/app.js"></script>
+		<script src="./public/scripts/flickity.js"></script>
+		<script src="./public/scripts/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,72 @@
+Smashing Magazine Redesign
+
+Navigation (top)
+    Articles
+    Events
+    Books
+    Jobs
+    Membership
+
+Navigation (bottom)
+    Design
+        Design
+        design patterns
+        design system
+        graphics
+        pattern libraries
+        typography
+        web design
+        wall papers
+    Language
+        css
+        html
+        javascript
+        react
+        wordpress
+        responsive web Design
+    Programs
+        illustrator
+        photoshop
+        sketch
+    Device
+        android
+        ios
+        mobile
+    UX
+        user experience
+        ui
+        usability
+        accessibility
+    Other
+        animation
+        apps
+        e-commerce
+        freebies
+        inspiration
+        performance
+        plugins
+        service workers
+        workflow
+    General Other
+        write for us
+        contact us
+        about us
+        privacy policy
+        membership login
+        advertise
+
+Sections of page:
+    Articles
+        Article title
+        author
+        blurb
+        length of read
+        number of comments
+    Events
+        Most current event (heading)
+        Speakers, schedule, workshops, locations, tickets
+        workshops:
+            date
+            Speaker
+            blurb
+            date
