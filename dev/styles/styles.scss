@@ -1,1 +1,59 @@
-@import "./_flickity";
+@import "./partials//_setup";
+@import "./partials//_colors";
+@import "./partials/_flickity";
+@import "./partials/_nav";
+@import "./partials/_article";
+@import "./partials/_events";
+@import "./partials/_footer";
+@import "./partials/_header";
+
+// GENERAL STYLES
+
+html {
+    font-size: 62.5%;
+}
+
+// TYPOGRAPHY
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+// a:visited, a:active {
+//     color: black;
+// }
+
+// WRAPPER
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section, main {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    li {
+        list-style-type: none;
+    }
+}

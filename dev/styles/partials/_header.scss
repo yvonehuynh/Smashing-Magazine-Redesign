@@ -1,0 +1,10 @@
+.main-article-container {
+    width: 70%;
+}
+
+.main-carousel:first-of-type {
+    .carousel-cell {
+        display: flex;
+        align-items: flex-end;
+    }
+}

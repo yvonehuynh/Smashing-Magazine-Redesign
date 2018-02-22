@@ -1,0 +1,28 @@
+// TOP NAVIGATION
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    .main-logo-container, .link-container {
+        width: 50%;
+    }
+    .logo {
+        width: 30%;
+    }
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    ul {
+        display: flex;
+    }
+    li {
+        margin: 10px;
+    }
+    a {
+        color: $primaryColor;
+        font-size: 1.8rem;
+    }
+}

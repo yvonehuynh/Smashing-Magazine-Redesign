@@ -1,6 +1,6 @@
 Smashing Magazine Redesign
 
-Navigation (top)
+Navigation (top) (CHECK)
     Articles
     Events
     Books
@@ -8,7 +8,7 @@ Navigation (top)
     Membership
 
 Navigation (bottom)
-    Design
+    Design CHECK
         Design
         design patterns
         design system
@@ -17,27 +17,27 @@ Navigation (bottom)
         typography
         web design
         wall papers
-    Language
+    Language CHECK
         css
         html
         javascript
         react
         wordpress
         responsive web Design
-    Programs
+    Programs CHECK
         illustrator
         photoshop
         sketch
-    Device
+    Device CHECK
         android
         ios
         mobile
-    UX
+    UX CHECK
         user experience
         ui
         usability
         accessibility
-    Other
+    Other CHECK
         animation
         apps
         e-commerce
@@ -47,7 +47,7 @@ Navigation (bottom)
         plugins
         service workers
         workflow
-    General Other
+    General Other CHECK
         write for us
         contact us
         about us

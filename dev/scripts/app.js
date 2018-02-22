@@ -1,8 +1,15 @@
 
 
 
-var elem = document.querySelector('.main-carousel');
+var elem = document.getElementsByClassName('main-carousel')[0];
 var flkty = new Flickity(elem, {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+
+var elem2 = document.getElementsByClassName('main-carousel')[1];
+var flkty = new Flickity(elem2, {
   // options
   cellAlign: 'left',
   contain: true

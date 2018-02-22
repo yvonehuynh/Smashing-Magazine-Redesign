@@ -1,0 +1,20 @@
+footer {
+    background: linear-gradient(#f25959, #ffb04c);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.general-links {
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 5px;
+        }
+    }
+}
