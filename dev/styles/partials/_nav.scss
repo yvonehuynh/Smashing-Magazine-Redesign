@@ -38,11 +38,16 @@ nav {
 }
 
 input[type=text] {
-    border: 1px solid $primaryColor;
-    width: 70px;
+    border: 1px solid transparent;
+    width: 0px;
     height: 20px;
     border-radius: 5px;
     margin: 0 5px;
     font-size: 1.6rem;
     transition: all 0.3s ease;
+}
+
+label {
+    font-size: 2rem;
+    margin: 0 10px;
 }

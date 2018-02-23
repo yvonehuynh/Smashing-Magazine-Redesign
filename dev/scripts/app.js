@@ -23,5 +23,6 @@ var flkty = new Flickity('.main-carousel', {
 
 // on click of magnifying glass, expand text input
 document.querySelector(".searchbar").addEventListener("click", function(){
-  this.style.width = "180px"
+  this.style.width = "430px";
+  this.style.border = "1px solid #d33a2c";
 });
