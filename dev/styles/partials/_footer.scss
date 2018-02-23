@@ -1,17 +1,36 @@
 footer {
     background: $primaryColor;
-    padding: 10px;
+    padding: 30px;
     margin-top: 20px;
     a, a:visited, a:active{
         color: white;
         font-size: 1.6rem;
         line-height: 1.6;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+.footer-nav:last-of-type {
+    //width: 15%;
+    height: 100px;
+    a {
+        display: block;
+    }
+    img {
+        width: 100%;
+    }
+    label {
+        color: white;
+        text-align: center;
+        margin: 10px 0;
     }
 }
 
 .main-footer {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .general-links {
@@ -22,5 +41,16 @@ footer {
         li {
             margin: 5px;
         }
+    }
+}
+
+form {
+    margin: 10px 0;
+    display: flex;
+    #email {
+        width: 240px;
+        height: 23px;
+        border: 1px solid $primaryColor;
+        font-size: 1.6rem;
     }
 }

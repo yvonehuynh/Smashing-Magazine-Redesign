@@ -71,3 +71,10 @@ ul {
         list-style-type: none;
     }
 }
+
+button {
+    font-size: 1.6rem;
+    color: $primaryColor;
+    background: white;
+    border: 1px solid $primaryColor;
+}
