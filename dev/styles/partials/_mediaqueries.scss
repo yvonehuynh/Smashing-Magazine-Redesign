@@ -14,6 +14,9 @@
 @media only screen and (max-width: 900px) {
 
     // nav
+        #burger-label {
+            display: block;
+        }
         #top-nav-area {
             flex-direction: column;
             background: $primaryColor;
@@ -42,4 +45,28 @@
         }
     }
 
+    .search-area {
+        label {
+            display: none;
+        }
+    }
+    
+    #searchbar {
+        width: 300px;
+        max-width: 300px;
+        margin-right: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    // articles
+    .article-container {
+        flex-direction: column;
+        .article-card {
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
 }
