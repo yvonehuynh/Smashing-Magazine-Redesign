@@ -18,9 +18,11 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    ul {
+}
+
+    #top-nav-area{
         display: flex;
-    }
+    
     li {
         margin: 10px;
     }
@@ -52,4 +54,12 @@ label {
 
 .fas.fa-bars {
     position: relative;
+}
+
+#burger-menu:checked ~ ul {
+    display: block;
+}
+
+#burger-menu {
+    display: none;
 }

@@ -79,4 +79,7 @@ button {
     border: 1px solid $primaryColor;
 }
 
+.show {
+    display: block;
+}
 @import "./partials/_mediaqueries";

@@ -14,16 +14,16 @@
 @media only screen and (max-width: 900px) {
 
     // nav
-    .link-container {
-        ul {
+        #top-nav-area {
             flex-direction: column;
             background: $primaryColor;
             position: absolute;
             z-index: 1;
             width: 20%;
-        }
+            display: none;
+            top: 20px;
         li {
-            display: block;
+            // display: block;
             transition: all 0.3s ease;  
             border-bottom: 1px solid transparent;
             &:hover {
@@ -33,7 +33,7 @@
         }
         a {
             color: white;
-            display: block;
+            // display: block;
             width: 100%;
             &:hover {
                 color: $primaryColor;
@@ -41,4 +41,5 @@
             }
         }
     }
+
 }
