@@ -46,6 +46,7 @@ article {
         &:hover .read-more {
             text-decoration: underline;
             color: $primaryColor;
+            font-weight: bold;
         }
         .read-more {
             display: block;
