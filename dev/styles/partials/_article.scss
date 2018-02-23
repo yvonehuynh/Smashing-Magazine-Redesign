@@ -36,8 +36,23 @@
         padding: 10px;
         min-height: 100px;
         line-height: 1.6;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
+    }
+}
+
+article {
+    a {
+        color: $primaryColor;
+        font-size: 1.6rem;
+        &:hover .read-more {
+            text-decoration: underline;
+            color: $primaryColor;
+        }
+        .read-more {
+            display: block;
+            text-align: right;
+        }
+        .article-description {
+            color: black;
+        }
     }
 }

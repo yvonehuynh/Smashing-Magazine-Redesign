@@ -24,7 +24,7 @@
 					<li><a href="https://www.smashingmagazine.com/membership" tabindex="0" target="_blank">Membership</a></li>
 				</ul>
 				<div class="search-area">
-					<input type="text" placeholder="search">
+					<input type="text" placeholder="search" class="searchbar">
 					<a href=""  tabindex="0">Member Login</a>
 				</div>
 			</div>
@@ -32,7 +32,7 @@
 
 		<header>
 			<div class="main-carousel">
-				<div class="carousel-cell">
+				<div class="carousel-cell" id="first-slide">
 					<a href="https://www.smashingmagazine.com/2018/02/react-d3-ecosystem/" target="_blank" tabindex="0" class="main-article-link">
 					<div class="main-article-container">
 						<h1>Bringing Together React, D3, And Their Ecosystem</h1>
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 
-				<div class="carousel-cell">
+				<div class="carousel-cell" id="second-slide">
 					<a href="https://www.smashingmagazine.com/2018/02/comprehensive-guide-ui-design/" target="_blank"  tabindex="0" class="main-article-link">
 						<div class="main-article-container">
 						<h1>A Comprehensive Guide To UI Design</h1>
@@ -59,7 +59,7 @@
 					</a>
 				</div>
 
-				<div class="carousel-cell">
+				<div class="carousel-cell" id="third-slide">
 					<a href="https://www.smashingmagazine.com/2018/02/comprehensive-website-planning-guide-part1/" target="_blank"  tabindex="0" class="main-article-link">
 						<div class="main-article-container">
 						<h1>A Comprehensive Website Planning Guide (Part 1)</h1>
@@ -85,6 +85,8 @@
 			</div>
 			<div class="article-container">
 			<article class="article-card">
+				<a href="https://www.smashingmagazine.com/2018/02/designing-a-perfect-responsive-configurator/" target="_blank"
+				 tabindex="0">
 				<div class="card-title">
 					<h3 class="article-title">Designing A Perfect Responsive Configurator</h3>
 				</div>
@@ -92,11 +94,13 @@
 					<h4 class="author">Vitaly Friedman</h4>
 					<p class="article-summary">How would you design a responsive car configurator? How would you deal with accessibility, navigation, real-time previews,
 					</p>
-					<a href="https://www.smashingmagazine.com/2018/02/designing-a-perfect-responsive-configurator/" class="read-more" target="_blank" tabindex="0">Read More</a>
+				<span class="read-more">Read More</span>
 				</div>
+				</a>
 			</article>
 
 			<article class="article-card">
+				<a href="https://www.smashingmagazine.com/2018/02/getting-started-public-speaking/" target="_blank" tabindex="0">
 				<div class="card-title">
 					<h3 class="article-title">Getting Started In Public Speaking: Global Diversity CFP Day</h3>
 				</div>
@@ -104,20 +108,24 @@
 					<h4 class="author">Rachel Andrew</h4>
 					<p class="article-summary">The recent Global Diversity CFP Day aimed to help more people submit their ideas to conferences and get into public speaking.
 					</p>
-					<a href="https://www.smashingmagazine.com/2018/02/getting-started-public-speaking/" class="read-more" target="_blank" tabindex="0">Read More</a>
+					<span class="read-more">Read More</span>
 				</div>
+				</a>
 			</article>
 
 			<article class="article-card">
+				<a href="https://www.smashingmagazine.com/2018/02/monthly-web-development-update-2-2018/" target="_blank"
+				 tabindex="0">
 				<div class="card-title">
 					<h3 class="article-title">The Grown-Up Web, Branding Details, And Browser Fast Forward</h3>
 				</div>
 				<div class="article-description">
 					<h4 class="author">Anselm Hannemann</h4>
-					<p class="article-summary">Staying on top of the newest techniques, browser updates, and hot topics can be hard. Anselm Hannemann summarized what happened
+					<p class="article-summary">Staying on top of the newest techniques, browser updates, and hot topics can be hard. Anselm Hannemann summarized what...
 					</p>
-					<a href="https://www.smashingmagazine.com/2018/02/monthly-web-development-update-2-2018/" class="read-more" target="_blank" tabindex="0">Read More</a>
+					<span class="read-more">Read More</span>
 				</div>
+				</a>
 			</article>
 			</div>
 		</main>
@@ -177,44 +185,54 @@
 				<a href="https://www.smashingmagazine.com/jobs/" target="_blank" tabindex="0">More jobs</a>
 				</div>
 			</div>
+
 			<div class="article-container">
 			<article class="article-card">
+				<a href="https://www.smashingmagazine.com/jobs/2018-02-21-visual-designer-chicago/" target="_blank" tabindex="0">
 				<div class="card-title">
 					<h3 class="job-title">Visual Designer</h3>
 				</div>
 				<div class="article-description">
 					<p class="job-summary">Every day, seven billion consumers spend billions buying products. We collect billions of data points in more than 100 countries
 					on what consumers watch and buy to help our clients identify...</p>
-					<a href="https://www.smashingmagazine.com/jobs/2018-02-21-visual-designer-chicago/" class="read-more" target="_blank" tabindex="0">More Details</a>
+					<span class="read-more">Read More</span>
 				</div>
+			</a>
 			</article>
 
 			<article class="article-card">
-				<div class="card-title">
-					<h3 class="job-title">Lead Digital Designer</h3>
-				</div>
-				<div class="article-description">
-					<p class="job-summary">Do you wanna join a revolution? We are looking for a designer to refine and streamline our user interfaces. We need a designer
-					who is passionate about customer experience, and who is capable of...</p>
-					<a href="https://www.smashingmagazine.com/jobs/2018-02-20-digital-designer-oslo/" class="read-more" target="_blank" tabindex="0">More Details</a>
-				</div>
+				<a href="https://www.smashingmagazine.com/jobs/2018-02-20-digital-designer-oslo/" target="_blank" tabindex="0">
+					<div class="card-title">
+						<h3 class="job-title">Lead Digital Designer</h3>
+					</div>
+					<div class="article-description">
+						<p class="job-summary">Do you wanna join a revolution? We are looking for a designer to refine and streamline our user interfaces. We need a designer
+						who is passionate about customer experience, and who is capable of...</p>
+						<span class="read-more">Read More</span>
+					</div>
+				</a>
 			</article>
 
 			<article class="article-card">
-				<div class="card-title">
-					<h3 class="job-title">Mendix Developer</h3>
-				</div>
-				<div class="article-description">
-					<p class="job-summary">Ben jij als Java developer meer geïnteresseerd in onze Java vacatures? Kijk dan eens hier (https://goo.gl/2H8R4A). Of ben
-					jij geïnteresseerd in Mendix op te doen? Dan hebben wij...</p>
-					<a href="https://www.smashingmagazine.com/jobs/2018-02-19-mendix-developer-nieuwegein/" class="read-more" target="_blank" tabindex="0">More Details</a>
-				</div>
+				<a href="https://www.smashingmagazine.com/jobs/2018-02-19-mendix-developer-nieuwegein/" target="_blank" tabindex="0">
+					<div class="card-title">
+						<h3 class="job-title">Mendix Developer</h3>
+					</div>
+					<div class="article-description">
+						<p class="job-summary">Ben jij als Java developer meer geïnteresseerd in onze Java vacatures? Kijk dan eens hier (https://goo.gl/2H8R4A). Of ben
+						jij geïnteresseerd in Mendix op te doen? Dan hebben wij...</p>
+						<span class="read-more">Read More</span>
+					</div>
+				</a>
 			</article>
 			</div>
 		</section>
 
 		<footer>
 			<div class="main-footer">
+				<div class="footer-logo-container">
+					<img class="logo" src="./public/assets/smashing-magazine.svg" alt="smashing magazine logo">
+				</div>
 				<div class="footer-nav">
 					<h3>Design</h3>
 					<ul>
