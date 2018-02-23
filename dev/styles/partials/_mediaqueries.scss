@@ -1,0 +1,44 @@
+@media only screen and (max-width: 940px) {
+
+    // articles
+    h3 {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+    // footer
+    .footer-nav:last-of-type {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    // nav
+    .link-container {
+        ul {
+            flex-direction: column;
+            background: $primaryColor;
+            position: absolute;
+            z-index: 1;
+            width: 20%;
+        }
+        li {
+            display: block;
+            transition: all 0.3s ease;  
+            border-bottom: 1px solid transparent;
+            &:hover {
+                color: $primaryColor;
+                background: white;
+            }
+        }
+        a {
+            color: white;
+            display: block;
+            width: 100%;
+            &:hover {
+                color: $primaryColor;
+                border-bottom: 2px solid transparent;
+            }
+        }
+    }
+}

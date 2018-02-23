@@ -5,7 +5,7 @@ nav {
     justify-content: space-between;
     padding: 10px;
     .link-container {
-        width: 50%;
+        width: 70%;
     }
     .main-logo-container {
         width: 25%;
@@ -48,4 +48,8 @@ label {
     font-size: 2rem;
     margin: 0 10px;
     cursor: pointer;
+}
+
+.fas.fa-bars {
+    position: relative;
 }
