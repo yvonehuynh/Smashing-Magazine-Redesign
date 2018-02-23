@@ -61,12 +61,65 @@
 
 @media only screen and (max-width: 800px) {
 
+    // nav
+    #top-nav-area {
+        width: 40%;
+    }
+
     // articles
     .article-container {
         flex-direction: column;
         .article-card {
             width: 100%;
             margin: 10px 0;
+        }
+    }
+
+    // events
+    .event-info {
+        .info-section {
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    // general styles
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+    // nav
+    #searchbar {
+        width: 181px;
+        max-width: 181px;
+    }
+
+    // events
+    .event-title {
+        font-size: 2.5rem;
+    }
+
+    // footer
+    .footer-nav {
+        width: 33%;
+    }
+
+    .footer-nav:last-child {
+        width: 80%;
+    }
+
+    .newsletter {
+        text-align: center;
+    }
+    form {
+        #email {
+            width: 100%;
         }
     }
 }
