@@ -35,16 +35,18 @@ nav {
             border-bottom: 2px solid $primaryColor;
         }
     }
-    input[type=text] {
+}
+
+    #searchbar {
         border: 1px solid transparent;
-        width: 0px;
+        width: 474px;
         height: 20px;
         border-radius: 5px;
         margin: 0 5px;
         font-size: 1.6rem;
         transition: all 0.3s ease;
+        border: 1px solid $primaryColor;
     }
-}
 
 label {
     font-size: 2rem;
