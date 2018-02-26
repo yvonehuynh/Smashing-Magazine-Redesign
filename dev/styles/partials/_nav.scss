@@ -39,8 +39,8 @@ nav {
 
     #searchbar {
         border: 1px solid transparent;
-        width: 474px;
-        height: 20px;
+        width: 400px;
+        height: 23px;
         border-radius: 5px;
         margin: 0 5px;
         font-size: 1.6rem;
@@ -58,21 +58,22 @@ label {
     position: relative;
 }
 
-#burger-menu:checked ~ ul {
-    display: block;
-}
-
 #burger-menu {
     display: none;
 }
-
 #burger-label {
     display: none;
+}
+#burger-menu:checked ~ ul {
+    display: block;
 }
 
 .search-area {
     a {
         color: $primaryColor;
         font-size: 1.8rem;
+    }
+    button {
+        margin-right: 5px;
     }
 }

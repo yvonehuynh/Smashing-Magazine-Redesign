@@ -14,8 +14,10 @@
 @media only screen and (max-width: 900px) {
 
     // nav
+
         #burger-label {
             display: block;
+            color: $primaryColor;
         }
         #top-nav-area {
             flex-direction: column;
@@ -124,6 +126,23 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+
+    // nav
+    #searchbar {
+        width: 100%;
+    }
+
+    .search-area {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        a {
+            font-size: 1.6rem;
+        }
+    }
+}
+
 @media only screen and (max-width: 480px) {
     // nav
     nav {
@@ -139,6 +158,11 @@
             flex-direction: row;
             justify-content: space-between;
         }
+    }
+
+    #searchbar {
+        width: 100%;
+        font-size: 1.2rem;
     }
 
     // header
@@ -174,10 +198,9 @@
             font-size: 1.2rem;
         }
     }
-
-    #searchbar {
-        width:145px;
-        max-width:145px;
+    
+    button {
+        font-size: 1.2rem;
     }
 
     // events

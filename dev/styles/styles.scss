@@ -32,6 +32,9 @@ h3 {
 a {
     text-decoration: none;
     display: inline-block;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 p {
@@ -76,7 +79,13 @@ button {
     font-size: 1.6rem;
     color: $primaryColor;
     background: white;
+    border-radius: 5px;
     border: 1px solid $primaryColor;
+    &:hover {
+        background: $primaryColor;
+        color: white;
+        border: 1px solid white;
+    }
 }
 
 .show {

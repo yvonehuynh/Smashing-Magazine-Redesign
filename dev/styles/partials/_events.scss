@@ -21,6 +21,11 @@
         align-items: center;
         background: white;
         border-radius: 5px;
+        &:hover {
+            background: $primaryColor;
+            color: white;
+            border: 1px solid white;
+        }
     }
     .event-photo {
         width: 40%;
